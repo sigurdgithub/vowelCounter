@@ -1,0 +1,2 @@
+Goal of the project is to create a page where users can input a word. When a button is clicked, the page will count the number of vowels used inside the input field and display the number on the page.
+EXTRA: Display the vowels of the input on the page as well.
