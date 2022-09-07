@@ -1,7 +1,7 @@
 'use strict';
 // Reference the 'vowelBox' and detect its text
 // Use array
-const vowels = ['A', E, 'I', 'O', 'U', 'Y'];
+const vowels = ['A', 'E', 'I', 'O', 'U', 'Y'];
 // Get the vowels from the text inside the 'vowelBox'
 const countVowels = () => {
 	let counter = 0;
@@ -10,10 +10,11 @@ const countVowels = () => {
 	for (let letter of textValue.toUpperCase()) {
 		if (vowels.includes(letter)) {
 			counter++;
-		} else {
-			return (document.getElementById('vowelCounter').innerHTML = `${counter}`);
 		}
 	}
+	return (document.getElementById(
+		'vowelCounter'
+	).innerHTML = `The number of vowels in your text equals ${counter}`);
 
 	//document.getElementById('vowelCounter').innerHTML = typeof textValue;
 };
