@@ -10,24 +10,26 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0"
 		/>
-		<style src="style.css"></style>
+		<link rel="stylesheet" href="style.css"></link>
 		<title>Vowel Counter</title>
 	</head>
 	<body>
-		<h1>Vowel Counter</h1>
-		<textarea
-			id="vowelBox"
-			cols="30"
-			rows="10"
-			placeholder="Type your text here"
-		></textarea>
-		<input
-			type="submit"
-			value="Check vowels"
-			onClick="countVowels()"
-		/>
-		<h4 id="vowelCounter"></h4>
-		<h4 id="showVowels"></h4>
+		<div class="center">
+			<h1>Vowel Counter</h1>
+			<textarea
+				id="vowelBox"
+				cols="30"
+				rows="10"
+				placeholder="Type your text here"
+			></textarea>
+			<input
+				class="input"
+				type="submit"
+				value="Check vowels"
+				onClick="countVowels()"
+			/>
+			<h4 id="vowelCounter"></h4>
+		</div>
 		<script src="app.js"></script>
 	</body>
 </html>

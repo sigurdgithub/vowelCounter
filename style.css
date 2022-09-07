@@ -1,0 +1,17 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+}
+
+.center {
+    margin: auto;
+    max-width: fit-content;
+    padding: 10px;
+  }
+
+  .input {
+    align-self: start;
+    padding: 5px;
+    background-color: black;
+    color: white;
+  }

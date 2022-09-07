@@ -14,14 +14,8 @@ const countVowels = () => {
 			countedVowels.push(letter);
 		}
 	}
-
-	//console.log(countedVowels);
 	return (document.getElementById(
 		'vowelCounter'
 	).innerHTML = `The number of vowels in your text equals ${counter}<br>
-	and include the following:  ${countedVowels}`);
-
-	//document.getElementById('vowelCounter').innerHTML = typeof textValue;
+	and include the following: ${countedVowels}`);
 };
-
-// Uppercase all vowels inside the array
